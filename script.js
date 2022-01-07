@@ -118,5 +118,5 @@ loadingModelPromise.then(() => {
   clearButton.addEventListener("mousedown", clearCanvas);
 
   ctx.clearRect(0, 0, CANVAS_SIZE, CANVAS_SIZE);
-  ctx.fillText("Draw a number here!", CANVAS_SIZE / 2, CANVAS_SIZE / 2);
+  ctx.fillText("书写一个数字", CANVAS_SIZE / 2, CANVAS_SIZE / 2);
 })
