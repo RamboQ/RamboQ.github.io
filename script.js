@@ -21,7 +21,7 @@ ctx.font = "28px sans-serif";
 ctx.textAlign = "center";
 ctx.textBaseline = "middle";
 ctx.fillStyle = "#212121";
-ctx.fillText("Loading...", CANVAS_SIZE / 2, CANVAS_SIZE / 2);
+ctx.fillText("正在加载", CANVAS_SIZE / 2, CANVAS_SIZE / 2);
 
 // Set the line color for the canvas.
 ctx.strokeStyle = "#212121";
